@@ -1,0 +1,19 @@
+/*
+Theme Name: Mage-WP-News
+Theme URI: http://mage-people.com
+Description: Test theme for Practise.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Author: Nur-E-Alam Tanzir
+Author URI: http://tanzirnur.com
+Tags: blue, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style,
+featured-images, microformats, post-formats, translation-ready, responsive
+Text Domain: mage
+*/
+
+
+img.custom-logo {
+    height: 90px;
+    width: 90px;
+}
