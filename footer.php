@@ -25,3 +25,6 @@
 	<p class="link"><span>© <?php echo date("d : M : Y");?> All rights Reserved | Designed by&nbsp; <a href="http://mage-people.com/"> mage-people.inc</a>	</span></p>
 </div>
 		<!-- End-wrap -->
+
+		</body>
+</html>

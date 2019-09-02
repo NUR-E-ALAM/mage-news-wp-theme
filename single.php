@@ -52,5 +52,3 @@
 	<div class="clear"> </div>
 	<?php get_footer(); ?>
 		
-	</body>
-</html>

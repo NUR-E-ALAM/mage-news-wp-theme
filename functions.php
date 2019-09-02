@@ -9,6 +9,13 @@ function mage_news(){
 
     add_theme_support( "post-thumbnails" );
 
+    add_theme_support( 'custom-header');
+
+add_theme_support( 'custom-background' );
+add_theme_support( 'title-tag' );
+wp_enqueue_style( 'style', get_template_directory_uri() . '/css/style.css',false,'date()','all');
+
+
     add_theme_support( 'custom-logo', array(
         'height'      => 100,
         'width'       => 400,
@@ -40,21 +47,6 @@ $args = array(
 	'default-image' => get_template_directory_uri() . '/images/header.jpg',
 	'uploads'       => true,
 );
-add_theme_support( 'custom-header', $args );
-
-
-if ( function_exists('register_sidebar') )
-  register_sidebar(array(
-    'name' => 'Name of Widgetized Area',
-    'before_widget' => '<div class = "widgetizedArea">',
-    'after_widget' => '</div>',
-    'before_title' => '<h3>',
-    'after_title' => '</h3>',
-  )
-);
-
-add_theme_support( 'custom-background' );
-add_theme_support( 'title-tag' );
 
 /**
  * Add a sidebar.
@@ -71,6 +63,8 @@ function wpdocs_theme_slug_widgets_init() {
     ) );
 }
 add_action( 'widgets_init', 'wpdocs_theme_slug_widgets_init' );
+
+
 
 
 

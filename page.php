@@ -1,9 +1,12 @@
-<?php get_header(); ?>
-			<div class="wrap">
-				<div class="about">
-				<?php get_sidebar(); ?>
-					<div class="bloder-content">	
-					<?php
+<?php
+
+get_header();
+?>
+
+	<section id="primary" class="content-area">
+		<main id="main" class="site-main">
+
+        <?php
 						if ( have_posts() ) :					
 							while ( have_posts() ) :the_post();
 							
@@ -27,33 +30,12 @@
       ?></p>		
 						</div>
 						<div class="clear"> </div>
-					</div>					
-					
-					</div>
-					<?php
-			endwhile;
-        else :
-            _e("<h1>no post available</h1>");
-		endif;
-		?>
-			</div>
-			
-			</div>
-		
-<div class="clear"> </div>
-			<!-- End-content-gallery-->
-			
-			<!-- DC Pagination:C9 Start -->
-			<div class="wrap">
-	<!-- DC Pagination:A3 Start -->
+					</div>	
 
-							<!-- DC Pagination:A3 End -->
-				<div class="clear"> </div>
-				<?php  the_posts_pagination(); ?>
-				
-				
-	<!-- DC Pagination:C9 End -->
-		</div>
-	<div class="clear"> </div>
-	<?php get_footer(); ?>
-		
+		</main><!-- #main -->
+	</section><!-- #primary -->
+
+<?php
+get_footer();
+
+?>

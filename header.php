@@ -3,8 +3,6 @@
 <html <?php language_attributes(); ?>>
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
-		<link href="<?php echo get_template_directory_uri(); ?>/css/style.css" rel="stylesheet" type="text/css"  media="all" />
-		<?php wp_title(); ?>
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<link href='//fonts.googleapis.com/css?family=Carrois+Gothic+SC' rel='stylesheet' type='text/css'>
 

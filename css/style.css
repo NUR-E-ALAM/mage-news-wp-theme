@@ -39,7 +39,7 @@ img{max-width:100%;}
 	background: -ms-linear-gradient(top,  #264284 0%,#365ebf 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  #264284 0%,#365ebf 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#264284', endColorstr='#365ebf',GradientType=0 ); /* IE6-9 */
-	padding: 15px 0px 18px 0px;
+
 }
 .services-sidebar li img{
 	vertical-align:middle;
@@ -655,6 +655,7 @@ ul.dc_paginationA03 li a:hover, ul.dc_paginationA03 li a.current {
 }
 .services-sidebar li {
 padding: 5px 0px;
+list-style-type: none;
 }
 .services-sidebar li a {
 	color: #747474;
